@@ -1,0 +1,2 @@
+postfix: postfix start
+dovecot: dovecot -F
