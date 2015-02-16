@@ -20,7 +20,6 @@ ENV APP_HOST mail.weboak.nl
 ENV DB_HOST localhost
 ENV DB_NAME virtual_mail
 ENV DB_USER virtual_mail
-ENV DB_PASSWORD 
 
 # Configure postfix installation
 RUN echo "postfix postfix/main_mailer_type string Internet site" | debconf-set-selections
