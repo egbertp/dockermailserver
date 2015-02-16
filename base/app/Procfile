@@ -1,2 +1,2 @@
-postfix: postfix start
-dovecot: dovecot -F
+postfix: /usr/sbin/postfix start
+dovecot: /usr/sbin/dovecot -F
