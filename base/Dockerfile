@@ -7,10 +7,6 @@ ENV DEBIAN_FRONTEND noninteractive
 # Fix apt-get errors
 RUN locale-gen en_US.UTF-8
 
-# Make sure that the Ubuntu packages are loaded from the 
-# correct Ubuntu repository: add sources.list
-ADD etc/apt/sources.list /etc/apt/sources.list
-
 # Update apt and upgrade to latest packages
 RUN apt-get update && \
     apt-get -y upgrade
