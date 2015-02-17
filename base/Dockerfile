@@ -82,7 +82,7 @@ ADD /app/. /app
 RUN chmod +x /app/bin/*
 
 # Set the database hostname, username and password in the config files
-RUN /app/update_config_templates.sh
+RUN /app/bin/update_config_templates.sh
 
 # Rename executables
 # RUN mv /app/bin/confd* /app/bin/confd
